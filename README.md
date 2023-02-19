@@ -1,0 +1,2 @@
+# SimpleAutoAnswer
+AutoAnswer
