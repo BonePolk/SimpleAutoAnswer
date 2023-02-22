@@ -54,7 +54,7 @@ async def mes(client, message):
             await client.send_message(message.chat.id, "Возможно он вам скоро ответит просто подождите")
             if message.chat.id not in client.blacklist:
                 await client.send_message(message.chat.id, "А если он не ответит, напишите ему в 19:00 по мск скорее всего он будет уже более менее свободен")
-                await client.send_message(message.chat.id, "Либо вообще пишите @cxd444")
+                await client.send_message(message.chat.id, "Либо вообще пишите @...")
     
     return
     
