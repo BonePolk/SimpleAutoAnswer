@@ -21,11 +21,13 @@ class AutoAnswerClient(Client):
         self.notread = []
         
         
-app_id = "28091304"
-app_hash = "bf3863212c54af7a45f20a5e0f8db84e"
+app_id = ""
+app_hash = ""
 
-app = AutoAnswerClient("my_account", app_id, app_hash)
-
+try:
+    app = AutoAnswerClient("my_account", app_id, app_hash)
+except:
+    quit("Should be app_id and app_hash")
         
 
 @app.on_message(filters.private)
