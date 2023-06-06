@@ -6,7 +6,7 @@
 ## How it run
 - write command youself in saved messages
 > Main commands is AE(AutoEnable) and AS(AutoStop)
-> All command can see in after [commands](https://github.com/BonePolk/SimpleAutoAnswer/edit/main.py/README.md#commands) header
+> All command can see in after [commands](https://github.com/BonePolk/SimpleAutoAnswer#commands) header
 ## Commands
 - **AE(AutoEnable)** start bot
 - **AS(AutoStop)** stop bot
